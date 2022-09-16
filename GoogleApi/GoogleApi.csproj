@@ -37,6 +37,7 @@
 		<EmbedUntrackedSources>true</EmbedUntrackedSources>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 		<Company>Byteology, LLC</Company>
+		<PackageId>Byteology.GoogleApi</PackageId>
 	</PropertyGroup>
 
 	<ItemGroup>
