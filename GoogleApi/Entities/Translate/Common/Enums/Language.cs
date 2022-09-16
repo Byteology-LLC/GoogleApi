@@ -677,12 +677,6 @@ public enum Language
     Zulu,
 
     /// <summary>
-    /// Bihari.
-    /// </summary>
-    [EnumMember(Value = "bh")]
-    Bihari,
-
-    /// <summary>
     /// Akan.
     /// </summary>
     [EnumMember(Value = "ak")]
@@ -809,12 +803,6 @@ public enum Language
     Iloko,
 
     /// <summary>
-    /// Zulu.
-    /// </summary>
-    [EnumMember(Value = "Lushai")]
-    Abc7,
-
-    /// <summary>
     /// Maithili.
     /// </summary>
     [EnumMember(Value = "mai")]
@@ -824,5 +812,11 @@ public enum Language
     /// Manipuri.
     /// </summary>
     [EnumMember(Value = "mni-Mtei")]
-    Manipuri
+    Manipuri,
+
+    /// <summary>
+    /// Mizo.
+    /// </summary>
+    [EnumMember(Value ="lus")]
+    Mizo
 }
