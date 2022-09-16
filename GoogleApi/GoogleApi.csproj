@@ -7,18 +7,18 @@
 		<NoWarn />
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PlatformTarget>AnyCPU</PlatformTarget>
-		<AssemblyVersion>4.2.4.0</AssemblyVersion>
-		<FileVersion>4.2.4.0</FileVersion>
-		<Version>4.2.4.0</Version>
+		<AssemblyVersion>1.0.0</AssemblyVersion>
+		<FileVersion>1.0.0</FileVersion>
+		<Version>1.0.0</Version>
 		<SignAssembly>True</SignAssembly>
 		<AssemblyOriginatorKeyFile>GoogleApi.snk</AssemblyOriginatorKeyFile>
 		<LangVersion>latest</LangVersion>
-		<Authors>Michael Vivet, Don Boutwell</Authors>
+		<Authors>Don Boutwell</Authors>
 		<Owners>Michael Vivet</Owners>
 		<Product>Byteology-GoogleApi</Product>
 		<Summary>Google Places, Maps, Roads, Search and Translate API support (100%)</Summary>
 		<NeutralLanguage>en-US</NeutralLanguage>
-		<Description>Google Places, Maps, Roads, Search and Translate. Requests and Responses are complete with Google api documentation and references.</Description>
+		<Description>Based on Michael Vivet's GoogleApi package. Google Places, Maps, Roads, Search and Translate. Requests and Responses are complete with Google api documentation and references.</Description>
 		<PackageTags>google api map maps place places elevation snaptoroad snaptoroads snap road roads speed speedlimit coordinate geo geocode geocoder geocoding geolocation search text nearby radar translate translation detect detection language languages nearest geography point geocoordinate address location latitude longitude distance duration matrix distancematrix direction directions travel path journey trip photo photos timezone time zone autocomplete auto-complete traffic spatial</PackageTags>
 		<PackageReleaseNotes>
 			- Added override for polyline paths in static maps.
@@ -37,7 +37,7 @@
 		<EmbedUntrackedSources>true</EmbedUntrackedSources>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 		<Company>Byteology, LLC</Company>
-		<PackageId>Byteology.GoogleApi</PackageId>
+		<PackageId>DonBoutwell.GoogleApi</PackageId>
 	</PropertyGroup>
 
 	<ItemGroup>
