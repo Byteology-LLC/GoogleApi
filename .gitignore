@@ -11,3 +11,4 @@ project.lock.json
 TestResults*
 application.json
 GoogleApi/nuget.config
+nuget.config
