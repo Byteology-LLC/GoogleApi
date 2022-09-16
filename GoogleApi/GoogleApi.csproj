@@ -7,15 +7,15 @@
 		<NoWarn />
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PlatformTarget>AnyCPU</PlatformTarget>
-		<AssemblyVersion>4.2.3.0</AssemblyVersion>
-		<FileVersion>4.2.3.0</FileVersion>
-		<Version>4.2.3.0</Version>
+		<AssemblyVersion>4.2.4.0</AssemblyVersion>
+		<FileVersion>4.2.4.0</FileVersion>
+		<Version>4.2.4.0</Version>
 		<SignAssembly>True</SignAssembly>
 		<AssemblyOriginatorKeyFile>GoogleApi.snk</AssemblyOriginatorKeyFile>
 		<LangVersion>latest</LangVersion>
-		<Authors>Michael Vivet</Authors>
+		<Authors>Michael Vivet, Don Boutwell</Authors>
 		<Owners>Michael Vivet</Owners>
-		<Product>GoogleApi</Product>
+		<Product>Byteology-GoogleApi</Product>
 		<Summary>Google Places, Maps, Roads, Search and Translate API support (100%)</Summary>
 		<NeutralLanguage>en-US</NeutralLanguage>
 		<Description>Google Places, Maps, Roads, Search and Translate. Requests and Responses are complete with Google api documentation and references.</Description>
@@ -26,16 +26,17 @@
 		</PackageReleaseNotes>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 		<RepositoryType>GitHub</RepositoryType>
-		<RepositoryUrl>https://github.com/vivet/GoogleApi.git</RepositoryUrl>
+		<RepositoryUrl>https://github.com/Byteology-LLC/GoogleApi</RepositoryUrl>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<PackageIcon>icon.jpg</PackageIcon>
 		<PackageIconUrl />
-		<PackageProjectUrl>https://github.com/vivet/GoogleApi</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/Byteology-LLC/GoogleApi</PackageProjectUrl>
 		<DocumentationFile>$(MSBuildThisFileDirectory)\bin\$(Configuration)\GoogleApi.xml</DocumentationFile>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
 		<IncludeSymbols>true</IncludeSymbols>
 		<EmbedUntrackedSources>true</EmbedUntrackedSources>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<Company>Byteology, LLC</Company>
 	</PropertyGroup>
 
 	<ItemGroup>
